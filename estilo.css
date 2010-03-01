@@ -1,0 +1,147 @@
+/*
+    Document   : estilo
+    Created on : 26/02/2010, 08:52:36 PM
+    Author     : iddar
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root {
+    display: block;
+}
+body,p,div,a,ul,li,form,fieldset,h1{border:0;padding:0;margin:0;}
+
+
+body{
+    background: #6c6c6c;
+    color: #FFF;
+    font-family: sans-serif;
+}
+#sitio{
+    width: 960px;
+    margin: 0 auto;
+}
+#cuerpo{
+    width: 700px;
+    float: left;
+    color: #000;
+    background: #fff;
+}
+
+#formulario {
+ padding: 10px 20px;
+}
+
+#formulario textarea{
+    padding: 5px;
+    font-weight: bold;
+}
+
+#formulario fieldset{
+    width: 580px;
+}
+#formulario p{
+    padding: 5px;
+    text-align: right;
+}
+
+
+#comentarios{
+    width: 600px;
+    padding: 10px;
+}
+
+#comentarios .comentario{
+    padding: 10px;
+    -moz-border-radius:5px;
+}
+
+#comentarios .comentario:hover{
+    background: #fffdd2;
+
+}
+
+#comentarios #autor{
+    font-weight: bold;
+}
+
+#comentarios #autor span{
+    font-weight: normal;
+    color: #494947;
+    float: right;
+    font-size: .8em;
+}
+
+#comentarios h3{
+    text-align: right;
+}
+
+
+
+#bar{
+    float: right;
+    width: 240px;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+
+#bar img{
+    margin: 2px 25px;
+    border: solid 3px #000;
+}
+
+#login{
+    position: absolute;
+    width: 290px;
+    height: 250px;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    margin-top: -125px;
+    margin-left: -150px;
+    background: #fff;
+    color: #6c6c6c;
+    padding: 15px;
+    -moz-border-radius:10px;
+}
+
+#login h1{
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 1.4em;
+}
+
+#login form{
+    width: 280px;
+    margin: 0 auto;
+}
+
+#login p{
+    text-align: right;
+    margin: 6px 0;
+}
+
+#login label{
+    font-size: 0.80em;
+}
+
+#login p INPUT{
+    padding: 5px;
+}
+
+#login .boton{
+    width: 260px;
+    margin: 6px 0;
+}
+
+.registrar, .Mensage{
+    text-align: center;
+    padding: 3px 0;
+    font-size: 0.8em;
+}
