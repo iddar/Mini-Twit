@@ -1,6 +1,10 @@
 Mini Twit
 =========
 
+### Atencion esta vercion no funciona en produccion estamos precentando algunos errores :S disculpa las molestias
+
+	La vercion que funciona la puedes encontar en [este sitio](https://github.com/iddar/Mini-Twit/tree/c28f2da5e9cc19033a3796bdafed64e169d85683)
+
 Reseña
 ----------
 Pequeña aplicación se creo con fines didácticos, fue el material del curso de `creación de aplicaciones web` impartido por `Veralinux`
